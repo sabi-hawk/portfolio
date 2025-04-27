@@ -1,8 +1,6 @@
 # Personal Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14 and Tailwind CSS, showcasing my projects and professional experience.
-
-![Portfolio Preview](public/screenshots/Profile%20Pic.jpg)
+A modern, responsive portfolio website built with Next.js 14 and Tailwind CSS, showcasing my projects and professional experience. This portfolio demonstrates modern web development practices, clean design principles, and optimal performance.
 
 ## 🌟 Features
 
