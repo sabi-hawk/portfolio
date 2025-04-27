@@ -40,7 +40,7 @@ export function ProjectsSection() {
                 globally
               </p>
               <a
-                className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                   shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-1"
@@ -70,7 +70,7 @@ export function ProjectsSection() {
                 know.
               </p>
               <a
-                className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                   shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-2"
@@ -100,7 +100,7 @@ export function ProjectsSection() {
                 great experience for me to build the entire frontend.
               </p>
               <a
-                className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                   shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-3"
@@ -130,7 +130,7 @@ export function ProjectsSection() {
                 online.
               </p>
               <a
-                className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                   shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-4"

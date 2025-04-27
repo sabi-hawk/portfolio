@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="mt-[5rem] text-center">
           <Link
             href="/#projects"
-            className="inline-block bg-[#7843E9] text-white uppercase tracking-[1px] font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[8rem] py-[1.5rem] text-[2rem]"
+            className="inline-block bg-[#7843E9] text-[#ffffff] uppercase tracking-[1px] font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[8rem] py-[1.5rem] text-[2rem]"
           >
             Projects
           </Link>

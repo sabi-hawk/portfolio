@@ -2,13 +2,14 @@
 
 export function ContactSection() {
   return (
-    <section 
-      id="contact" 
+    <section
+      id="contact"
       className="py-[12rem] md:py-[8rem] bg-[linear-gradient(to_right,rgba(245,245,245,0.8),rgba(245,245,245,0.8)),url(/assets/svg/common-bg.svg)] bg-center bg-cover"
     >
       <div className="max-w-[120rem] mx-auto w-[92%]">
         <div className="mb-[9rem] md:mb-[8rem]">
-          <span className="block text-[4rem] uppercase tracking-[3px] text-center mb-[3.5rem] relative text-[#111] font-[700]
+          <span
+            className="block text-[4rem] uppercase tracking-[3px] text-center mb-[3.5rem] relative text-[#111] font-[700]
             after:content-[''] after:absolute after:top-[calc(100%+1.5rem)] after:h-[5px] after:w-[3rem] 
             after:bg-[#7843E9] after:left-1/2 after:-translate-x-1/2 after:rounded-[5px] 
             md:after:top-[calc(100%+1.2rem)]"
@@ -24,10 +25,10 @@ export function ContactSection() {
         <div className="bg-white shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] p-[4rem] mt-[6rem] max-w-[80rem] text-right w-[95%] rounded-[5px] mx-auto md:p-[3rem]">
           <form action="#" method="post">
             <input type="hidden" name="form-name" value="form 1" />
-            
+
             <div className="mb-[4rem] md:mb-[3rem]">
-              <label 
-                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left" 
+              <label
+                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left"
                 htmlFor="name"
               >
                 Name
@@ -43,8 +44,8 @@ export function ContactSection() {
             </div>
 
             <div className="mb-[4rem] md:mb-[3rem]">
-              <label 
-                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left" 
+              <label
+                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left"
                 htmlFor="email"
               >
                 Email
@@ -60,8 +61,8 @@ export function ContactSection() {
             </div>
 
             <div className="mb-[4rem] md:mb-[3rem]">
-              <label 
-                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left" 
+              <label
+                className="text-[#666] text-[1.4rem] tracking-[1px] font-[700] mb-[1rem] block text-left"
                 htmlFor="message"
               >
                 Message
@@ -77,9 +78,9 @@ export function ContactSection() {
               ></textarea>
             </div>
 
-            <button 
-              type="submit" 
-              className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
+            <button
+              type="submit"
+              className="bg-[#7843E9] text-[#ffffff] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                 shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
                 px-[4rem] py-[2rem] text-[1.6rem] w-[30%] md:w-full"
             >
