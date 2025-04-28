@@ -23,25 +23,22 @@ export function ProjectsSection() {
           <div className="grid grid-cols-[1.5fr_1fr] gap-[5rem] mb-[11rem] md:grid-cols-[1fr] md:gap-[2rem] md:mb-[8rem] last:mb-0">
             <div className="overflow-hidden">
               <img
-                src="https://www.rammaheshwari.com/assets/jpeg/dopefolio.jpeg"
-                alt="Software Screenshot"
+                src="/screenshots/superset.png"
+                alt="Apache Superset Customization"
                 className="w-full block object-cover"
                 loading="lazy"
               />
             </div>
             <div className="py-[2rem] flex justify-center flex-col items-start md:items-center md:text-center">
               <h3 className="font-[700] text-[2.8rem] mb-[2rem] md:text-[2.4rem]">
-                Dopefolio
+                Apache Superset Enterprise Customization
               </h3>
               <p className="text-[1.8rem] text-[#666] max-w-[60rem] leading-[1.7] mb-[3rem] md:text-[1.7rem]">
-                Dopefolio is a successful Open-Source project that I created
-                which have been featured on some of the biggest tech sites like
-                CSS-Tricks, Hostinger, etc &amp; used by thousands of developers
-                globally
+                Led the enterprise customization of Apache Superset: developed new plugins, advanced charting, RLS, dynamic datasets, and embedded analytics for multi-tenant BI. Used React, TypeScript, Python, Flask, Redis, PostgreSQL, and Docker to deliver robust, scalable solutions.
               </p>
               <a
-                className="bg-[#7843E9] text-white text-[#ffffff] text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
-                  shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] \
+                  shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] \
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-1"
                 target="_blank"
@@ -54,24 +51,22 @@ export function ProjectsSection() {
           <div className="grid grid-cols-[1.5fr_1fr] gap-[5rem] mb-[11rem] md:grid-cols-[1fr] md:gap-[2rem] md:mb-[8rem] last:mb-0">
             <div className="overflow-hidden">
               <img
-                src="https://www.rammaheshwari.com/assets/jpeg/wilsonport.jpeg"
-                alt="Software Screenshot"
+                src="/screenshots/pulsemeet-1.png"
+                alt="PulseMeet Telemedicine Platform"
                 className="w-full block object-cover"
                 loading="lazy"
               />
             </div>
             <div className="py-[2rem] flex justify-center flex-col items-start md:items-center md:text-center">
               <h3 className="font-[700] text-[2.8rem] mb-[2rem] md:text-[2.4rem]">
-                Wilsonport
+                PulseMeet Telemedicine Platform
               </h3>
               <p className="text-[1.8rem] text-[#666] max-w-[60rem] leading-[1.7] mb-[3rem] md:text-[1.7rem]">
-                Wilsonport is a multiservice logistics and transport company and
-                I created their website from scratch using the frontend tools I
-                know.
+                Developed PulseMeet, a full-featured telemedicine platform with secure video calling, real-time chat, waiting rooms, provider and patient portals, appointment scheduling, and pre-call device testing. Used Twilio for video/audio, PubNub for real-time chat and waiting room, and built a support portal for live platform stats. Tech: React, TypeScript, Tailwind, Node.js, Express, MongoDB, Next.js.
               </p>
               <a
-                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
-                  shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] 
+                className="bg-[#7843E9] text-white text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] \
+                  shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] \
                   px-[5rem] py-[1.5rem] text-[1.6rem]"
                 href="/project-2"
                 target="_blank"
