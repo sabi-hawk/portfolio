@@ -34,6 +34,7 @@ export function HeroSection() {
             className="w-full block p-[1rem] transition-colors rounded-[5px] hover:bg-[rgba(120,67,233,0.2)]"
             rel="noreferrer"
             target="_blank"
+            title="LinkedIn"
           >
             <img
               src="/assets/svg/linkedin-dark.svg"
@@ -48,6 +49,7 @@ export function HeroSection() {
             className="w-full block p-[1rem] transition-colors rounded-[5px] hover:bg-[rgba(120,67,233,0.2)]"
             rel="noreferrer"
             target="_blank"
+            title="Twitter"
           >
             <img
               src="/assets/svg/twitter-dark.svg"
@@ -62,6 +64,7 @@ export function HeroSection() {
             className="w-full block p-[1rem] transition-colors rounded-[5px] hover:bg-[rgba(120,67,233,0.2)]"
             rel="noreferrer"
             target="_blank"
+            title="YouTube"
           >
             <img
               src="/assets/svg/yt-dark.svg"
@@ -70,12 +73,14 @@ export function HeroSection() {
             />
           </a>
         </div>
+
         <div className="w-[5rem]">
           <a
             href="https://github.com/sabi-hawk"
             className="w-full block p-[1rem] transition-colors rounded-[5px] hover:bg-[rgba(120,67,233,0.2)]"
             rel="noreferrer"
             target="_blank"
+            title="GitHub"
           >
             <img
               src="/assets/svg/github-dark.svg"
@@ -86,16 +91,26 @@ export function HeroSection() {
         </div>
         <div className="w-[5rem]">
           <a
-            href="https://dev.to/sabihawk"
+            href="https://drive.google.com/file/d/1AbckdL_3nyNvT1FoZk1vqUDD7jURr3Tx/view?usp=sharing"
             className="w-full block p-[1rem] transition-colors rounded-[5px] hover:bg-[rgba(120,67,233,0.2)]"
             rel="noreferrer"
             target="_blank"
+            aria-label="Resume"
+            title="Resume"
           >
-            <img
-              src="/assets/svg/book-dark.svg"
-              alt="Sabahat Atique DEV.to Blog Profile"
-              className="w-full"
-            />
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-full h-full"
+            >
+              <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+              <polyline points="14 2 14 8 20 8" />
+              <path d="M9 15l2 2 4-4" />
+            </svg>
           </a>
         </div>
       </div>

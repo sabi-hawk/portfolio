@@ -1,9 +1,16 @@
 "use client";
 
 const skills = [
-  "HTML", "CSS", "JavaScript", "React", "Wordpress",
-  "PHP", "SASS", "GIT", "Github", "Responsive Design",
-  "SEO", "Terminal"
+  // Frontend
+  "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Ant Design", "Bootstrap", "SCSS",
+  // Backend
+  "Node.js", "Nest.js", "Python", "Express.js",
+  // Database
+  "MongoDB", "SQL",
+  // API/DevOps/Tools
+  "API Development", "RESTful APIs", "Docker", "CI/CD", "Git/GitHub", "Postman", "JEST",
+  // Soft Skills
+  "Agile/Scrum", "Problem-solving", "Mentorship"
 ];
 
 export function AboutSection() {
@@ -31,17 +38,10 @@ export function AboutSection() {
             </h3>
             <div>
               <p className="text-[1.8rem] text-[#666] max-w-[60rem] leading-[1.7] mb-[1rem]">
-                I&apos;m a <strong>Frontend Focused Web Developer</strong>{" "}
-                building and managing the Front-end of Websites and Web
-                Applications that leads to the success of the overall product.
-                Check out some of my work in the <strong>Projects</strong>{" "}
-                section.
+                I&apos;m a <strong>Full-Stack Developer</strong> with over 5 years of experience specializing in the <strong>US Healthcare</strong> domain. I&apos;ve successfully delivered multiple healthcare solutions that have improved patient care and clinical workflows. Check out some of my work in the <strong>Projects</strong> section.
               </p>
               <p className="text-[1.8rem] text-[#666] max-w-[60rem] leading-[1.7] mb-[1rem]">
-                I also like sharing content related to the stuff that I have
-                learned over the years in <strong>Web Development</strong> so it
-                can help other people of the Dev Community. Feel free to Connect
-                or Follow me on my{" "}
+                My expertise includes developing telemedicine platforms, healthcare analytics dashboards, and patient management systems. I&apos;m passionate about creating solutions that make a real difference in healthcare delivery. Feel free to Connect or Follow me on my{" "}
                 <a
                   href="https://linkedin.com/in/sabahat-atique"
                   className="text-[#7843E9] font-[700] underline mx-[3px]"
@@ -50,14 +50,10 @@ export function AboutSection() {
                 >
                   Linkedin
                 </a>{" "}
-                where I post useful content related to Web Development and
-                Programming
+                where I share insights about healthcare technology and development.
               </p>
               <p className="text-[1.8rem] text-[#666] max-w-[60rem] leading-[1.7] mb-[4rem]">
-                I&apos;m open to <strong>Job</strong> opportunities where I can
-                contribute, learn and grow. If you have a good opportunity that
-                matches my skills and experience then don&apos;t hesitate to{" "}
-                <strong>contact</strong> me.
+                I&apos;m open to <strong>Job</strong> opportunities where I can contribute my healthcare domain expertise and full-stack development skills. If you have a good opportunity that matches my experience, don&apos;t hesitate to <strong>contact</strong> me.
               </p>
             </div>
             <a

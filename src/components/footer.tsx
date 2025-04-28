@@ -74,9 +74,9 @@ export function Footer() {
               Sabahat Atique
             </h2>
             <p className="mt-[2rem] text-[#eee] text-[1.5rem] leading-[1.7]">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+              A Full-Stack Developer building both the Frontend and Backend of
+              Websites and Web Applications that drive the success of the
+              overall product
             </p>
           </div>
         </div>

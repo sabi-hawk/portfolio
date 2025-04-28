@@ -22,7 +22,10 @@ export function ContactSection() {
           </span>
         </div>
 
-        <div className="bg-white shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] p-[4rem] mt-[6rem] max-w-[80rem] text-right w-[95%] rounded-[5px] mx-auto md:p-[3rem]">
+        <div
+          className="relative z-10 bg-white border border-[#ececec] shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] p-[4rem] mt-[6rem] max-w-[80rem] text-right w-[95%] rounded-[5px] mx-auto md:p-[3rem]"
+          style={{ backgroundColor: '#fff' }}
+        >
           <form action="#" method="post">
             <input type="hidden" name="form-name" value="form 1" />
 

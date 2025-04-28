@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 const socialLinks = [
   {
@@ -20,9 +20,18 @@ const socialLinks = [
     label: "Twitter",
   },
   {
-    href: "https://youtube.com/@sabihawk",
-    icon: Youtube,
-    label: "YouTube",
+    href: "https://drive.google.com/file/d/1AbckdL_3nyNvT1FoZk1vqUDD7jURr3Tx/view?usp=sharing",
+    icon: (props: React.SVGProps<SVGSVGElement>) => (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M4 4h16v16H4z" />
+        <path d="M8 2v4" />
+        <path d="M16 2v4" />
+        <path d="M4 10h16" />
+        <path d="M9 14h6" />
+        <path d="M9 18h6" />
+      </svg>
+    ),
+    label: "Resume",
   },
 ];
 
