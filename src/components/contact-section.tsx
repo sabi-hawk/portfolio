@@ -85,7 +85,7 @@ export function ContactSection() {
               type="submit"
               className="bg-[#7843E9] text-[#fff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] 
                 shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-all duration-300 hover:-translate-y-[3px] 
-                w-[30%] px-[2rem] py-[1.5rem] text-[1.4rem] md:w-full"
+                w-[30%] px-[2rem] py-[1.5rem] text-[1.4rem] max-[600px]:w-full"
             >
               SUBMIT
             </button>
