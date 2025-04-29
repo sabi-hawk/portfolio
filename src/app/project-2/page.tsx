@@ -19,7 +19,7 @@ export default function ProjectPage() {
             </p>
           </div>
           <div className="mt-[5rem] text-center">
-            <a href="#" className="bg-[#7843E9] text-white uppercase tracking-[1px] inline-block font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[8rem] py-[1.5rem] text-[2rem]" target="_blank" rel="noreferrer">
+            <a href="#" className="bg-[#7843E9] text-[#ffffff] uppercase tracking-[1px] inline-block font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[8rem] py-[1.5rem] text-[2rem]" target="_blank" rel="noreferrer">
               Project Link
             </a>
           </div>
@@ -79,7 +79,7 @@ export default function ProjectPage() {
               </h2>
               <a
                 href="#"
-                className="inline-block mr-[2rem] bg-[#7843E9] text-white uppercase tracking-[1px] font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[5rem] py-[1.5rem] text-[1.6rem] md:w-[70%] md:mr-0 md:mb-[2rem] md:text-center"
+                className="inline-block mr-[2rem] bg-[#7843E9] text-[#ffffff] uppercase tracking-[1px] font-[700] rounded-[5px] shadow-[0_5px_15px_0_rgba(0,0,0,0.15)] transition-transform hover:-translate-y-[3px] px-[5rem] py-[1.5rem] text-[1.6rem] md:w-[70%] md:mr-0 md:mb-[2rem] md:text-center"
                 target="_blank"
                 rel="noreferrer"
               >
