@@ -1,7 +1,6 @@
 "use client";
 
 import Navbar from "@/components/navbar";
-import { Footer } from "@/components/footer";
 import Link from "next/link";
 
 export default function ProjectPage() {
@@ -153,7 +152,6 @@ export default function ProjectPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
