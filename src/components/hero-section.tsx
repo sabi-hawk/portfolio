@@ -98,19 +98,11 @@ export function HeroSection() {
             aria-label="Resume"
             title="Resume"
           >
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="w-full h-full"
-            >
-              <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
-              <polyline points="14 2 14 8 20 8" />
-              <path d="M9 15l2 2 4-4" />
-            </svg>
+            <img
+              src="/assets/svg/resume.svg"
+              alt="Sabahat Atique Resume"
+              className="w-full"
+            />
           </a>
         </div>
       </div>
